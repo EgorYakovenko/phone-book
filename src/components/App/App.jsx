@@ -31,7 +31,7 @@ function App() {
   const error = useSelector(selectError);
 
   useEffect(() => {
-    dispatch(refreshUser);
+    dispatch(refreshUser());
   }, [dispatch]);
 
   // useEffect(() => {
