@@ -1,26 +1,26 @@
 function Home() {
   return (
-    <div>
-      <p>Task manager welcome page</p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-        asperiores eius nobis saepe quis voluptatibus facere expedita tempora,
-        hic similique natus minima fugit doloribus molestiae dolorum sed debitis
-        tempore consectetur repellat, accusantium aspernatur incidunt
-        doloremque. Quod doloribus beatae, molestiae voluptatibus, numquam
-        recusandae accusamus voluptatem aliquam, sed vero consectetur esse
-        harum?
+    <div style={{ textAlign: 'center', maxWidth: '600px', margin: '0 auto' }}>
+      <p
+        style={{
+          fontSize: '24px',
+          fontWeight: 'bold',
+          marginBottom: '20px',
+          marginTop: '20px',
+        }}
+      >
+        {' '}
+        Welcome{' '}
       </p>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum et
-        illo non vel rerum odit, maxime, vitae dolorem molestiae error
-        cupiditate! Quasi eaque est provident voluptates adipisci? Cumque
-        quisquam laboriosam ullam, inventore ipsa ducimus quaerat dolorum natus
-        quasi amet ab earum vero, laborum cum quibusdam qui? Illo ab facere a
-        dolore, labore quisquam modi voluptatum esse nisi accusantium architecto
-        qui veritatis molestiae doloribus quas placeat, suscipit asperiores
-        fugiat quam sint perspiciatis ducimus! Officiis quam vel inventore fuga
-        dolorum, voluptatibus possimus.
+      <p style={{ fontSize: '16px', lineHeight: '1.6' }}>
+        "Our 'Phone Book' application is a convenient way to organize and store
+        all your contacts in one place. Forget about the clutter in your contact
+        list - now you can easily add new contacts, edit existing ones, and
+        quickly find the necessary phone numbers and addresses. We offer an
+        intuitive interface, personalized categories for easy sorting, and a
+        quick search function so you can find the information you need in just a
+        few clicks. Our 'Phone Book' application is your reliable assistant in
+        organizing contacts!"
       </p>
     </div>
   );

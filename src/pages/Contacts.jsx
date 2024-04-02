@@ -16,7 +16,6 @@ function Contacts() {
 
   return (
     <>
-      <p>Your contacts</p>
       <ContactForm />
       <SearchBox />
       <div>{Loading && 'Request in progress...'}</div>

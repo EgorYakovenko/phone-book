@@ -1,0 +1,27 @@
+.userMenu {
+  background-color: #f0f0f0; /* Цвет фона */
+  padding: 20px; /* Отступы вокруг содержимого */
+  border-radius: 5px; /* Закругленные углы */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Тень */
+  text-align: center; /* Выравнивание по горизонтали */
+}
+
+.userMenu p {
+  font-size: 18px; /* Размер шрифта */
+  color: #333; /* Цвет текста */
+}
+
+.userMenu button {
+  background-color: #4caf50; /* Зеленый цвет кнопки */
+  color: #fff; /* Белый цвет текста кнопки */
+  padding: 10px 20px; /* Внутренние отступы кнопки */
+  border: none; /* Убираем границу кнопки */
+  border-radius: 5px; /* Закругленные углы */
+  cursor: pointer; /* Указатель при наведении */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease; /* Плавное изменение цвета фона */
+}
+
+.userMenu button:hover {
+  background-color: #ff6347; /* Цвет фона кнопки при наведении */
+}

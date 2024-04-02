@@ -76,21 +76,3 @@ function App() {
 }
 
 export default App;
-
-{
-  /* <>
-      <div>
-        <h1 className={css.container}>Phonebook</h1>
-
-        <ContactForm />
-        <SearchBox />
-        {error && <p>Error message</p>}
-        {loading && <Loader />}
-        <ContactList />
-      </div>
-    </> */
-}
-
-//  <ContactForm />
-//       <SearchBox />
-//       <ContactList />
