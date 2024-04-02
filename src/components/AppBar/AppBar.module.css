@@ -1,59 +1,31 @@
-/* .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 16px;
-  border-bottom: 1px solid #2a363b;
-} */
-
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #4caf50; /* Зеленый цвет фона */
-  padding: 20px; /* Отступы вокруг содержимого */
-  border-bottom: 2px solid #388e3c; /* Темнозеленая горизонтальная линия под заголовком */
-  /* text-align: center; */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Тень */
+  background-color: #4caf50;
+  padding: 20px;
+  border-bottom: 2px solid #388e3c;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .header > div {
-  display: flex; /* Отображение дочерних элементов в строку */
-  /* justify-content: space-between;  */
+  display: flex;
   align-items: center;
 }
 
 .header > div > div {
-  margin-left: auto; /* Перемещение элемента вправо */
+  margin-left: auto;
 }
 
-/* Стилизация ссылок в навигации */
 .header a {
-  color: #ffffff; /* Белый цвет текста */
-  text-decoration: none; /* Убираем подчеркивание */
-  margin: 0 10px; /* Отступы между ссылками */
-  padding: 10px; /* Внутренние отступы */
-  border-radius: 5px; /* Закругленные углы */
-  transition: background-color 0.3s ease; /* Плавное изменение цвета фона */
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 .header a:hover {
-  background-color: rgba(255, 255, 255, 0.1); /* Цвет фона при наведении */
+  background-color: rgba(255, 255, 255, 0.1);
 }
-
-/* .header a.active {
-  font-weight: bold; 
-} */
-
-/* Стилизация элементов меню пользователя */
-/* .header .user-menu {
-  display: flex;
-  align-items: center;
-} */
-
-/* .header .user-menu .user-avatar {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  margin-right: 10px;
-} */
