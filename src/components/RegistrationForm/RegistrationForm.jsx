@@ -4,13 +4,13 @@ import { register } from '../../redux/auth/operations';
 import * as Yup from 'yup';
 import css from './RegistrationForm.module.css';
 
-const validation = Yup.object({
+const UserSchema = Yup.object().shape({
   name: Yup.string()
     .min(3, 'Too short!')
     .max(20, 'Too long!')
     .required('Required'),
   email: Yup.string().email('Invalid email').required('Required'),
-  password: Yup.string().min(4, 'Too short!').required('Required'),
+  password: Yup.string().min(7, 'Too short!').required('Required'),
 });
 
 function RegistrationForm() {
@@ -28,7 +28,7 @@ function RegistrationForm() {
         email: '',
         password: '',
       }}
-      validationSchema={validation}
+      validationSchema={UserSchema}
       onSubmit={handleSubmit}
     >
       <Form className={css.form}>
