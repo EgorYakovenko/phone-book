@@ -2,10 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #4caf50;
+  background-color: rgba(77, 77, 77, 0.5);
   padding: 20px;
-  border-bottom: 2px solid #388e3c;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  /* border-bottom: 2px solid #000000; */
+  /* box-shadow: 0 2px 4px rgba(77, 77, 77, 1); */
 }
 
 .header > div {
@@ -18,7 +18,7 @@
 }
 
 .header a {
-  color: #ffffff;
+  color: rgb(197, 197, 197);
   text-decoration: none;
   margin: 0 10px;
   padding: 10px;
