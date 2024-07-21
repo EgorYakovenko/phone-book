@@ -2,9 +2,9 @@ import LoginForm from '../components/LoginForm/LoginForm';
 
 function Login() {
   return (
-    <div>
+    <>
       <LoginForm />
-    </div>
+    </>
   );
 }
 

@@ -31,22 +31,41 @@ function RegistrationForm() {
       validationSchema={UserSchema}
       onSubmit={handleSubmit}
     >
-      <Form className={css.form}>
-        <p className={css.heading}>Register your account</p>
+      <Form className={css.container}>
+        <p className={css.title}>Register your account</p>
         <label className={css.label}>
           Username
-          <Field className={css.input} type="text" name="name" />
-          <ErrorMessage name="name" component="span" />
+          <Field
+            className={css.allInput}
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+          />
+          <ErrorMessage className={css.error} name="name" component="span" />
         </label>
         <label className={css.label}>
           Email
-          <Field className={css.input} type="email" name="email" />
-          <ErrorMessage name="email" component="span" />
+          <Field
+            className={css.allInput}
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+          />
+          <ErrorMessage className={css.error} name="email" component="span" />
         </label>
         <label className={css.label}>
           Password
-          <Field className={css.input} type="password" name="password" />
-          <ErrorMessage name="password" component="span" />
+          <Field
+            className={css.allInput}
+            type="password"
+            name="password"
+            placeholder="Enter your password"
+          />
+          <ErrorMessage
+            className={css.error}
+            name="password"
+            component="span"
+          />
         </label>
         <button className={css.button} type="submit">
           Register

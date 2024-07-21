@@ -2,7 +2,7 @@ import css from './HomeComponent.module.css';
 export default function HomeComponent() {
   return (
     <div className={css.container}>
-      <h1>Welcome</h1>
+      <h1 className={css.title}>Welcome</h1>
       <p className={css.text}>
         "Our 'Phone Book' application is a convenient way to organize and store
         all your contacts in one place. Forget about the clutter in your contact
