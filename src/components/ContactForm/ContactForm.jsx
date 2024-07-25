@@ -55,7 +55,7 @@ function ContactForm() {
           name="name"
           id={nameId}
         ></Field>
-        <ErrorMessage name="name" />
+        <ErrorMessage className={css.error} name="name" component="span" />
 
         <label className={css.label} htmlFor={numberId}>
           Number
@@ -66,7 +66,7 @@ function ContactForm() {
           name="number"
           id={numberId}
         ></Field>
-        <ErrorMessage name="number" />
+        <ErrorMessage className={css.error} name="number" component="span" />
 
         <button className={css.button} type="submit">
           Add contacts

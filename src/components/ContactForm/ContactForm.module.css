@@ -1,11 +1,10 @@
 .container {
   max-width: 400px;
-  /* margin: auto; */
+  margin: auto;
   margin-top: 20px;
   padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: rgb(77, 77, 77);
+  border-radius: 10px;
 }
 
 h2 {
@@ -17,16 +16,17 @@ h2 {
   display: block;
   margin-bottom: 8px;
   font-weight: bold;
-  color: #555;
+  color: rgb(197, 197, 197);
 }
 
 .input {
-  width: 95%;
+  width: 100%;
   padding: 8px;
-  margin-bottom: 16px;
+  margin-bottom: 5px;
   border: 1px solid #ccc;
   border-radius: 4px;
   background-color: transparent;
+  color: rgb(197, 197, 197);
 }
 
 .button {
@@ -38,7 +38,6 @@ h2 {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 button:hover {
@@ -48,4 +47,10 @@ button:hover {
 .errorMessage {
   color: #ff6347;
   margin-top: 4px;
+}
+
+.error {
+  display: block;
+  color: red;
+  margin-bottom: 5px;
 }

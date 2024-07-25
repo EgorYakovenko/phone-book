@@ -32,35 +32,20 @@ function RegistrationForm() {
       onSubmit={handleSubmit}
     >
       <Form className={css.container}>
-        <p className={css.title}>Register your account</p>
+        <p className={css.title}>Registration</p>
         <label className={css.label}>
           Username
-          <Field
-            className={css.allInput}
-            type="text"
-            name="name"
-            placeholder="Enter your name"
-          />
+          <Field className={css.allInput} type="text" name="name" />
           <ErrorMessage className={css.error} name="name" component="span" />
         </label>
         <label className={css.label}>
           Email
-          <Field
-            className={css.allInput}
-            type="email"
-            name="email"
-            placeholder="Enter your email"
-          />
+          <Field className={css.allInput} type="email" name="email" />
           <ErrorMessage className={css.error} name="email" component="span" />
         </label>
         <label className={css.label}>
           Password
-          <Field
-            className={css.allInput}
-            type="password"
-            name="password"
-            placeholder="Enter your password"
-          />
+          <Field className={css.allInput} type="password" name="password" />
           <ErrorMessage
             className={css.error}
             name="password"
