@@ -20,10 +20,16 @@ function Contact({ data: { name, number, id } }) {
       </div>
 
       <button
-        className={css.button}
+        className={css.buttonDel}
         onClick={() => dispatch(deleteContact(id))}
       >
         Delete
+      </button>
+      <button
+        className={css.buttonEdit}
+        onClick={() => dispatch(deleteContact(id))}
+      >
+        Edit
       </button>
     </div>
   );

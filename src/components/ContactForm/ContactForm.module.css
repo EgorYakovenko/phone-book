@@ -1,6 +1,6 @@
 .container {
   max-width: 400px;
-  margin: auto;
+  /* margin: auto; */
   margin-top: 20px;
   padding: 20px;
   border: 1px solid #ddd;
@@ -26,6 +26,7 @@ h2 {
   margin-bottom: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .button {

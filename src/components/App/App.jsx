@@ -8,8 +8,10 @@ import { refreshUser } from '../../redux/auth/operations';
 import { selectIsRefreshing } from '../../redux/auth/selectors';
 
 const HomePage = lazy(() => import('../../pages/Home'));
-const RegisterPage = lazy(() => import('../../pages/Registration'));
-const LoginPage = lazy(() => import('../../pages/Login'));
+const RegisterPage = lazy(() =>
+  import('../../pages/RegistrationPage/Registration')
+);
+const LoginPage = lazy(() => import('../../pages/LoginPage/Login'));
 const Contacts = lazy(() => import('../../pages/Contacts'));
 
 function App() {
